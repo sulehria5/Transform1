@@ -1,0 +1,12 @@
+div{
+    width: 100px;
+    height: 100px;
+    margin: 100px;
+    border-radius: 10px;
+    background-color:red;
+    transition:transform 1s;
+}
+
+div:hover{
+transform:translateY(100px)scale(1.5)rotate(90deg);
+}
